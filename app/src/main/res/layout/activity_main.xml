@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="sanchez.daniel.triviathewalkingdead.MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="sanchez.daniel.triviathewalkingdead.CreditosFragment"
+        android:id="@+id/fragmentoCreditos"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="sanchez.daniel.triviathewalkingdead.InicioFragment"
+        android:id="@+id/fragmentoInicio"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="sanchez.daniel.triviathewalkingdead.PuntuacionFragment"
+        android:id="@+id/fragmentoPuntuacion"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="sanchez.daniel.triviathewalkingdead.AjustesFragment"
+        android:id="@+id/fragmentoAjustes"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="sanchez.daniel.triviathewalkingdead.AboutFragment"
+        android:id="@+id/fragmentoAbout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

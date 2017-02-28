@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgZombie"
+        android:visibility="visible"
+        android:scaleType="fitXY"
+        android:src="@drawable/zombie" />
+
+    <!-- android:scaleType="fitXY" para que la imágen se escale al 100% de los ejes x y -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgRick"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:src="@drawable/rick" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgNegan"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:src="@drawable/negan" />
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/txtLogo"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="Trivial The Walking Dead"
+        android:fontFamily="casual" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:gravity="center"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:text="ABOUT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtAbout"
+            android:fontFamily="serif"
+            android:layout_weight="10"
+            android:textStyle="italic" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Introducción"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textSize="25sp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtIntroduccion"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtIntroduccionTexto"
+                    android:gravity="left"
+                    android:textAlignment="inherit" />
+
+                <TextView
+                    android:text="Como Jugar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25sp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtComoJugar"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtComoJugarTexto"
+                    android:gravity="left"
+                    android:textAlignment="inherit" />
+
+                <TextView
+                    android:text="Contacto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:textSize="25sp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtContacto"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtContactoTexto"
+                    android:gravity="left"
+                    android:textAlignment="inherit" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtContactoTexto2"
+                    android:textSize="20sp"
+                    android:text="sr9daniel@gmail.com"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:text="Volver"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:textSize="20sp"
+            android:background="@drawable/botonabout"
+            android:layout_marginEnd="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginStart="80dp"
+            android:id="@+id/btnVolverAbout" />
+
+    </LinearLayout>
+</LinearLayout>

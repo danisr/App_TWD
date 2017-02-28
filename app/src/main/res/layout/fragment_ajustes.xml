@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/txtLogo"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:textColor="#000000"
+        android:text="Trivial The Walking Dead"
+        android:fontFamily="casual" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:gravity="center"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:text="AJUSTES"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtAjustes"
+            android:fontFamily="serif"
+            android:layout_weight="10"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:background="#000000"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"/>
+            <TextView
+                android:text="Jugador:"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:background="#808080"
+                android:id="@+id/txtJugador"
+                android:fontFamily="serif"
+                android:layout_weight="8" />
+            <Button
+                android:text="Cambiar Nick"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:textSize="20sp"
+                android:background="@drawable/botonabout"
+                android:id="@+id/btnCambiarNick" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"/>
+            <TextView
+                android:text="Ajustes de Tiempo:"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:background="#808080"
+                android:id="@+id/txtAjustesTiempo"
+                android:fontFamily="serif"
+                android:layout_weight="8" />
+            <Button
+                android:text="Cambiar Tiempo Pregunta"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:textSize="20sp"
+                android:background="@drawable/botonabout"
+                android:id="@+id/btnTiempo" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="34"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+            </RadioGroup>
+
+        </LinearLayout>
+
+    <Button
+        android:text="Volver"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:textSize="20sp"
+        android:background="@drawable/botonabout"
+        android:layout_marginEnd="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/btnVolverAjustes" />
+
+    </LinearLayout>
+</LinearLayout>

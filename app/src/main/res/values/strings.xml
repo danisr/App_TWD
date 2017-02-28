@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TriviaTheWalkingDead</string>
+
+    <string name="introduccion">
+           Trivial The Walking Dead se ha creado en base a la serie The Walking Dead emitida por la cadena americana AMC.\n\n
+           Esta app probrará tus conocimientos acerca de la serie TWD con preguntas relacionadas desde la 1ª Temp. hasta la 7ª y actual Temp.\n\n
+           Se trata de acertar en el menor tiempo posible cada pregunta formulada.
+    </string>
+
+    <string name="comoJugar">
+           El juego consiste en acertar las máximas preguntas posibles en el menor tiempo posible.\n\n
+           La puntuación variará en función de lo rápido que se conteste cada pregunta. A mayor rapidez mayor puntuación.\n\n
+           Para ello se dispone de 3 vidas.
+    </string>
+
+    <string name="contacto">
+           Si usted encuentra cualquier error en alguna pregunta, no dude en contactar mediante correo electrónico a la siguiente dirección:
+    </string>
+
+</resources>
